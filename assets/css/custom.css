@@ -1,0 +1,9 @@
+.carousel-inner{
+   width: 900px;
+   height: 600px;
+    margin: auto;
+}
+
+body {
+    background-image: url("../img/294.jpg");
+}

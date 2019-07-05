@@ -27,9 +27,9 @@
             
             if($this->form_validation->run()== FALSE){
                 
-                $this->load->view('templates/header',$data);
+                $this->load->view('templates/header-tambah',$data);
                 $this->load->view('barang/tambah');
-                $this->load->view('templates/footer');
+                $this->load->view('templates/footer-tambah');
             } else{
                 $this->Barang_model->tambahDataBarang();
                 $this->session->set_flashdata('flash','berhasil ditambahkan');
@@ -49,9 +49,9 @@
             $data['judul'] = 'Detail Data Barang';
             $data['barang'] = $this->Barang_model->getBarangById($id);
 
-            $this->load->view('templates/header',$data);
+            $this->load->view('templates/header-detail',$data);
             $this->load->view('barang/detail',$data);
-            $this->load->view('templates/footer');
+            $this->load->view('templates/footer-detail');
 
         }
 
@@ -65,9 +65,9 @@
             
             if($this->form_validation->run()== FALSE){
                 
-                $this->load->view('templates/header',$data);
+                $this->load->view('templates/header-detail',$data);
                 $this->load->view('barang/ubah',$data);
-                $this->load->view('templates/footer');
+                $this->load->view('templates/footer-detail');
             } else{
                 $this->Barang_model->ubahDataBarang();
                 $this->session->set_flashdata('flash','berhasil diubah');

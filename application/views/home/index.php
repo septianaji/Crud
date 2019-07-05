@@ -1,11 +1,11 @@
                 <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+                     
                      <div class="carousel-inner">
-
                             <div class="carousel-item active" data-interval="1000">
-                            <img src="assets/img/coba2.png" class="d-block w-100" alt="Slide 1">
+                            <img class="d-block img-fluid" src="assets/img/coba0.png" class="d-block w-100" alt="Slide 1">
                             </div>
                                    <div class="carousel-item" data-interval="500">
-                                      <img src="assets/img/coba1.png" class="d-block w-100" alt="slide 2">
+                                      <img class ="d-block img-fluid" src="assets/img/coba00.png" class="d-block w-100" alt="slide 2">
                                   </div>
                       </div>
                                 <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
